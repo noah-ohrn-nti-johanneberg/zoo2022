@@ -1,0 +1,50 @@
+body {
+    height: 200vh;
+    width: 200vh;
+     
+}
+
+
+
+#wrapper {
+    height: 75%;
+    width: 90%;
+    margin: auto;
+    background-color: brown;
+    background-size: cover;
+    display: grid;
+    grid-template-areas: "hd nv"
+                        "s1 s2"
+                        "fo fo";
+    grid-template-columns: 50% 50%;
+    grid-template-rows:21% 42.5% 42.5%;
+    
+}
+
+header{
+    background-color: green;
+    grid-area: hd;
+    
+}
+
+nav {
+    background-color: darkorange;
+    grid-area: nv;
+    
+}
+
+#s1 {
+    grid-area: s1;
+    background-color: black;
+}
+
+#s2 {
+    grid-area: s2;
+    background-color: blueviolet;
+}
+
+footer {
+    grid-area: fo;
+    background-color: blue;
+}
+
