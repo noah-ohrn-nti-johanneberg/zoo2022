@@ -17,7 +17,7 @@ body {
                         "s1 s1"
                         "fo fo";
     grid-template-columns: 35% 65%;
-    grid-template-rows:21% 42.5% 42.5%;
+    grid-template-rows:21% 1fr 42.5%;
     
 }
 
@@ -41,16 +41,43 @@ nav a {
 color: black;
 }
 
-#s1 {
+section {
     grid-area: s1;
     background-color:whitesmoke;
+    
+}
+
+#img-1 {
+    display: flex;
+    justify-content: start;
+    font-size: 2rem;
+}
+
+#img-2 {
+    display: flex;
+    justify-content: end;
+}
+
+#img-3 {
+    display: flex;
+    justify-content: start;
+}
+
+#img-4 {
+    display: flex;
+    justify-content: end;
+}
+
+section img {
+    height: 30vh;
 }
 
 #main_text {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    font-size: 5rem;
+   
+    font-size: 3rem;
 }
 
 
