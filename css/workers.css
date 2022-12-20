@@ -25,6 +25,7 @@ header{
     background-color: green;
     grid-area: hd;
     
+    
 }
 
 nav {
@@ -49,8 +50,9 @@ section {
 
 #img-1 {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     font-size: 2rem;
+    
 }
 
 #img-2 {
@@ -66,24 +68,60 @@ section {
 #img-4 {
     display: flex;
     justify-content: end;
+    
 }
 
 section img {
-    height: 30vh;
+    height: 40vh;
+}
+
+section article {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 #main_text {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
    
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
+#img-4text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    
+}
 
+#img-3text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#img-2text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#img-1text {
+
+}
+
+strong {
+    font-size: 3rem;
+}
 
 footer {
     grid-area: fo;
     background-color: blue;
 }
 
+#julien {
+    border-radius: 25px;
+}
