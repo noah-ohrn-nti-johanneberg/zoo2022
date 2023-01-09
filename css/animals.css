@@ -3,3 +3,125 @@ body {
     width: 200vh;
      
 }
+
+
+
+#wrapper {
+    height: 75%;
+    width: 90%;
+    margin: auto;
+    background-color: brown;
+    background-size: cover;
+    display: grid;
+    grid-template-areas: "hd nv"
+                        "s1 s1"
+                        "fo fo";
+    grid-template-columns: 35% 65%;
+    grid-template-rows:21% 1fr 42.5%;
+    
+}
+
+header{
+    background-color: green;
+    grid-area: hd;
+    
+    
+}
+
+nav {
+    background-color: whitesmoke;
+    grid-area: nv;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 3rem;
+}
+
+nav a {
+    text-decoration-line: none;
+color: black;
+}
+
+section {
+    grid-area: s1;
+    background-color:whitesmoke;
+    
+}
+
+#img-1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    
+}
+
+#img-2 {
+    display: flex;
+    justify-content: end;
+}
+
+#img-3 {
+    display: flex;
+    justify-content: start;
+}
+
+#img-4 {
+    display: flex;
+    justify-content: end;
+    
+}
+
+section img {
+    height: 40vh;
+}
+
+section article {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#main_text {
+    display: flex;
+    flex-direction: column;
+    
+   
+    font-size: 2rem;
+}
+
+#img-4text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    
+}
+
+#img-3text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#img-2text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#img-1text {
+
+}
+
+strong {
+    font-size: 3rem;
+}
+
+footer {
+    grid-area: fo;
+    background-color: blue;
+}
+
+#julien {
+    border-radius: 25px;
+}
