@@ -119,9 +119,42 @@ strong {
 
 footer {
     grid-area: fo;
-    background-color: blue;
+    
+    font-size: 1.5rem;
+    display: grid ;
+    grid-template-areas: "k r v";
+    background-color: white;
+
+}
+
+#kontakt {
+    grid-area: k;
+    border-style: solid;
+}
+
+#reko {
+    grid-area: r;
+    border-style: solid;
+
+}
+
+#vem {
+    grid-area: v;
+    border-style: solid;
+    
 }
 
 #julien {
+    border-radius: 25px;
+}
+#rango {
+    border-radius: 25px;
+}
+
+#po {
+    border-radius: 25px;
+}
+
+#cat {
     border-radius: 25px;
 }

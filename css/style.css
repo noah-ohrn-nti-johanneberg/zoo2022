@@ -57,6 +57,29 @@ color: black;
 
 footer {
     grid-area: fo;
-    background-color: blue;
+    
+    font-size: 1.5rem;
+    display: grid ;
+    grid-template-areas: "k r v";
+    background-color: white;
+
 }
+
+#kontakt {
+    grid-area: k;
+    border-style: solid;
+}
+
+#reko {
+    grid-area: r;
+    border-style: solid;
+
+}
+
+#vem {
+    grid-area: v;
+    border-style: solid;
+    
+}
+
 
